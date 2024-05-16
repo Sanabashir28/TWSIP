@@ -1,0 +1,247 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+/* navbar section */
+
+.container{
+    text-align:center;
+}
+.form-control{
+    display:flex;
+    justify-content: space-between;
+    max-width: 600px;
+    min-width: 400px;
+    margin:0 10px;
+    background-color: aliceblue;
+  
+   }
+.nav-item{
+   padding:0 0 0 30px;
+}
+.nav-item2{
+    padding:0 30px 0 30px;
+}
+.navbar{
+    padding:10px 0;
+    font-size: 16.5px;
+    font-weight:490;
+    color:black;
+    font-family:sans-serif;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  .dropdown>.dropdown-toggle:active {
+      pointer-events: none;
+  }
+  .dropdown-imgs{
+    padding:0 10px 0 0;
+    width:30px;
+ }
+ .dropdown-item{
+    text-align:left;
+    font-weight:lighter;
+ }
+
+ 
+/* Category section */
+
+#category{
+    margin-top:80px;
+    width:1261px;
+    height:151px;
+}
+.category{
+    margin: 20px;
+    background-color: #fff;
+    width:1230px;
+    height:127px;
+    display:flex;
+}
+.category img{
+    width:65px;
+    height:auto;
+    padding-bottom:10px;
+}
+.ctgry{
+    margin:0 15px;
+}
+.ctgry span{
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:bold;
+}
+
+
+/* Crousel Section */
+
+.carousel-item{
+    width:1267px;
+    height:auto;
+    padding :0 20px;
+}
+
+/* mobile-Cards */
+
+.mobile-Card{
+    width:1230px;
+    height: auto;
+    justify-content: center;
+    background-color: #fff;
+    margin: 20px 20px;
+ }
+ .card-body{
+    padding: 16px 0;
+ }
+ .header{
+    width:120px;
+    height:200px;
+    padding:5px 5px;
+ }
+ .card-img1{
+    width:120%;
+    height:auto;
+    padding:5px 0;
+ }
+ .card-img2{
+    width:80%;
+    height:auto;
+    padding:5px 0;
+ }
+ .card-img3{
+    width:120%;
+    height:auto;
+    padding:5px 0;
+ }
+ .card-img4{
+    width:110%;
+    height:auto;
+    padding:5px 0;
+ }
+ .card{
+    margin:10px 22px 25px 22px;
+    width:10rem;
+    height:17rem;
+ }
+ .mobile-Card h1{
+    font-size:1.3rem;
+    font-family: sans-serif;
+    font-weight:600;
+    text-align: left;
+    padding:25px 15px 20px 15px;
+ }
+.card-text{
+    font-size:15px;  
+    font-weight:500;  
+ }
+ .card-title{
+    font-size:15px;
+    font-weight:400;
+ }
+ 
+/* not responsive yet */
+
+
+.Footer{
+    background-color: #14171a;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 18px;
+    background-color: #14171a;
+    color:white;
+    flex-wrap: wrap;
+}
+.call,.email,.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_top .fa-solid{
+    font-size: 30px;
+    margin:20px;
+    background-color:rgb(255, 179, 0);
+    padding:20px;
+    border-radius: 100px;
+    color:white;
+}
+
+/***********horizontal line*****************/
+hr{
+    width: 90%;
+    border:1px solid #5b5f63;
+    margin-top:40px;
+}
+
+
+/************Middle_Footer*******************/
+.Middle_Footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #14171a;
+    color:#5b5f63;
+    flex-wrap: wrap;
+}
+
+.seachbox{
+    background-color: white;
+    display: flex;
+    width: 215px;
+    align-items: center;
+    height: 50px;
+}
+input[type="email"]{
+    color: black;
+    border:none;
+    outline:none;
+}
+.seachbox .fa-solid{
+    color:rgb(255, 255, 0);
+    font-size: 30px;
+}
+
+
+
+.Middle_Footer h3{
+    color:white;
+}
+li:hover{
+color:red;
+cursor: pointer;
+}
+
+/**************footer_bottom*******************/
+.footer_bottom{
+    background-color: #1b2024;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top:20px;
+    color:#5b5f63;
+}
+.fa-brands{
+    padding:10px;
+    border:2px solid #5b5f63;
+    border-radius: 100px;
+    margin: 10px;
+    font-size: 20px;
+    color: #5b5f63;
+}
+.fa-brands:hover{
+    color:rgb(255, 208, 0);
+    border-color:rgb(255, 225, 0);
+}
+.fa-facebook-f{
+    padding:10px 13px 10px 13px;
+}
